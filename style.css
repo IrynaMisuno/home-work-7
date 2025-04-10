@@ -1,0 +1,137 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    background-color: rgb(173, 249, 249);
+    text-align: center;
+    z-index: 1000;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+nav a {
+    color: rgb(59, 83, 206);
+}
+nav a:active {
+    color: rgb(7, 19, 77);
+}
+
+
+
+.murr {
+    font-style: italic;
+    color: rgb(208, 39, 21);
+  }
+  
+  .first-p {
+    font-size: large;
+    max-width: 80%;
+  }
+  
+  .cont-box {
+    max-width: 1280px;
+    margin: 0;
+    padding: 80px 20px 20px 20px;
+  }
+  
+  .img {
+    display: inline-block;
+    max-width: 30%;
+    padding: 3px;
+  }
+  
+  a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+  }
+  
+  .main-text {
+    border: solid rgb(39, 91, 76) 1px;
+    background-color: rgb(173, 249, 249);
+    max-width: 80%;
+  }
+  
+  h1 {
+    top: 30px;
+    font-size: 72px;
+  }
+  
+  .float-example {
+    margin-top: 20px;
+    background: #e3f2fd;
+    padding: 10px;
+  }
+  
+  .box {
+    width: 45%;
+    padding: 10px;
+    background-color: #aed581;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .float-l {
+    float: left;
+  }
+  
+  .float-r {
+    float: right;
+  }
+  
+  .clearfix {
+    clear: both;
+    height: 0;
+  }
+  
+  .rel-box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff3cd;
+    border-left: 5px solid #f0ad4e;
+  }
+  
+  .abs-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f9c74f;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .mob {
+    display: inline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mob {
+      display: none;
+    }
+  }
+
+  .sticky-box {
+    position: sticky;
+    bottom: 10px;
+    background-color: #4fc3f7;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+button{
+    margin-bottom: 20px;
+}
